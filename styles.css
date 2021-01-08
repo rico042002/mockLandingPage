@@ -31,14 +31,12 @@ body {
 }
 
 .item { 
-    margin: 5px;
+    margin: 5px 0 5px 5px;
 
 }
 
 nav ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     background-color: hsl(213, 95%, 50%);
     overflow: hidden;
     top: 0;
@@ -112,5 +110,18 @@ cursor: pointer;
    #header-img {
        margin-top: 6rem;
    }
+
+   * {
+       margin: 0px;
+       padding: 0px;
+       box-sizing: border-box;
+   }
+
+   .menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
 }
 
